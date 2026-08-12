@@ -1,0 +1,72 @@
+[
+  {
+    "id": "worldtv-demo",
+    "name": "WorldTV Demo",
+    "country": "International",
+    "category": "featured",
+    "description": "Replace this with an authorised live stream.",
+    "logo": "assets/logo.svg",
+    "stream": "",
+    "live": true
+  },
+  {
+    "id": "uk-demo",
+    "name": "UK Channel",
+    "country": "United Kingdom",
+    "category": "uk",
+    "description": "Add an authorised UK broadcaster stream.",
+    "logo": "assets/logo.svg",
+    "stream": "",
+    "live": true
+  },
+  {
+    "id": "pakistan-demo",
+    "name": "Pakistan Channel",
+    "country": "Pakistan",
+    "category": "pakistan",
+    "description": "Add an authorised Pakistan broadcaster stream.",
+    "logo": "assets/logo.svg",
+    "stream": "",
+    "live": true
+  },
+  {
+    "id": "india-demo",
+    "name": "India Channel",
+    "country": "India",
+    "category": "india",
+    "description": "Add an authorised India broadcaster stream.",
+    "logo": "assets/logo.svg",
+    "stream": "",
+    "live": true
+  },
+  {
+    "id": "sports-demo",
+    "name": "World Sports",
+    "country": "International",
+    "category": "sports",
+    "description": "Add an authorised sports stream.",
+    "logo": "assets/logo.svg",
+    "stream": "",
+    "live": true
+  },
+  {
+    "id": "movies-demo",
+    "name": "World Movies",
+    "country": "International",
+    "category": "movies",
+    "description": "Add an authorised movie stream.",
+    "logo": "assets/logo.svg",
+    "stream": "",
+    "live": true
+  },
+  {
+    "id": "news-demo",
+    "name": "World News",
+    "country": "International",
+    "category": "news",
+    "description": "Add an authorised news stream.",
+    "logo": "assets/logo.svg",
+    "stream": "",
+    "live": true
+  }
+]
