@@ -1,0 +1,17 @@
+WorldTV-HDMI-Stick/
+├── index.html
+├── styles.css
+├── app.js
+├── channels.json
+├── manifest.json
+├── README.md
+├── LICENSE
+├── assets/
+│   ├── logo.svg
+│   └── icons/
+├── data/
+│   └── categories.json
+├── update/
+│   ├── version.json
+│   └── update.js
+└── .gitignore
