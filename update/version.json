@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "minimumVersion": "1.0.0",
+  "releaseDate": "2026-08-12",
+  "downloadUrl": "",
+  "releaseNotes": [
+    "Initial WorldTV HDMI Stick release",
+    "TV channel categories",
+    "Search",
+    "Fullscreen playback",
+    "Keyboard and remote controls",
+    "Settings",
+    "Local preferences"
+  ]
+}
