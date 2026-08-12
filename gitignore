@@ -1,0 +1,35 @@
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Build
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Android
+.gradle/
+local.properties/
+captures/
+
+# IDE
+*.iml
