@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+  >
+
+  <meta name="theme-color" content="#07111f">
+
+  <title>WorldTV</title>
+
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div id="app">
+
+    <!-- HEADER -->
+    <header class="topbar">
+
+      <div class="brand">
+        <img src="assets/logo.svg" alt="WorldTV">
+        <div>
+          <h1>WorldTV</h1>
+          <span>HDMI TV</span>
+        </div>
+      </div>
+
+      <div class="header-actions">
+
+        <button
+          class="icon-button"
+          id="searchButton"
+          aria-label="Search"
+        >
+          🔎
+        </button>
+
+        <button
+          class="icon-button"
+          id="settingsButton"
+          aria-label="Settings"
+        >
+          ⚙️
+        </button>
+
+      </div>
+
+    </header>
+
+
+    <!-- SEARCH -->
+    <section
+      id="searchPanel"
+      class="search-panel hidden"
+    >
+      <input
+        id="searchInput"
+        type="search"
+        placeholder="Search channels..."
+        autocomplete="off"
+      >
+
+      <button id="clearSearch">
+        Clear
+      </button>
+    </section>
+
+
+    <!-- MAIN NAVIGATION -->
+    <nav
+      id="categoryNav"
+      class="category-nav"
+      aria-label="TV Categories"
+    >
+    </nav>
+
+
+    <!-- PLAYER -->
+    <main class="main-content">
+
+      <section class="player-section">
+
+        <div class="video-container">
+
+          <video
+            id="videoPlayer"
+            controls
+            playsinline
+            preload="metadata"
+          ></video>
+
+          <div
+            id="playerMessage"
+            class="player-message"
+          >
+            Select a channel to start watching.
+          </div>
+
+          <div
+            id="loadingIndicator"
+            class="loading hidden"
+          >
+            <div class="spinner"></div>
+            <span>Loading...</span>
+          </div>
+
+        </div>
+
+        <div class="now-playing">
+
+          <div>
+            <span class="small-label">NOW PLAYING</span>
+
+            <h2 id="currentChannelName">
+              WorldTV
+            </h2>
+
+            <p id="currentChannelDescription">
+              Choose a channel below.
+            </p>
+          </div>
+
+          <button
+            id="fullscreenButton"
+            class="primary-button"
+          >
+            ⛶ Full Screen
+          </button>
+
+        </div>
+
+      </section>
+
+
+      <!-- CHANNELS -->
+      <section class="channels-section">
+
+        <div class="section-heading">
+
+          <div>
+            <span class="small-label">
+              WORLDTV
+            </span>
+
+            <h2 id="categoryTitle">
+              Featured Channels
+            </h2>
+          </div>
+
+          <span id="channelCount">
+            0 channels
+          </span>
+
+        </div>
+
+
+        <div
+          id="channelGrid"
+          class="channel-grid"
+        >
+        </div>
+
+      </section>
+
+    </main>
+
+
+    <!-- SETTINGS MODAL -->
+    <div
+      id="settingsModal"
+      class="modal hidden"
+    >
+
+      <div class="modal-card">
+
+        <div class="modal-header">
+
+          <h2>Settings</h2>
+
+          <button
+            id="closeSettings"
+            class="close-button"
+          >
+            ×
+          </button>
+
+        </div>
+
+
+        <div class="settings-list">
+
+          <label class="setting-row">
+
+            <span>
+              Autoplay channels
+            </span>
+
+            <input
+              type="checkbox"
+              id="autoplaySetting"
+              checked
+            >
+
+          </label>
+
+
+          <label class="setting-row">
+
+            <span>
+              Remember last channel
+            </span>
+
+            <input
+              type="checkbox"
+              id="rememberSetting"
+              checked
+            >
+
+          </label>
+
+
+          <div class="setting-row">
+
+            <span>
+              App version
+            </span>
+
+            <strong id="appVersion">
+              1.0.0
+            </strong>
+
+          </div>
+
+
+          <button
+            id="checkUpdateButton"
+            class="secondary-button"
+          >
+            🔄 Check for Updates
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- TOAST -->
+    <div
+      id="toast"
+      class="toast"
+    ></div>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+      <span>
+        WorldTV
+      </span>
+
+      <span>
+        •
+      </span>
+
+      <span>
+        Legal/public streams only
+      </span>
+
+    </footer>
+
+  </div>
+
+  <script src="app.js"></script>
+  <script src="update/update.js"></script>
+
+</body>
+</html>
