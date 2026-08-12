@@ -1,0 +1,34 @@
+[
+  {
+    "id": "all",
+    "name": "🌎 All"
+  },
+  {
+    "id": "featured",
+    "name": "⭐ Featured"
+  },
+  {
+    "id": "uk",
+    "name": "🇬🇧 UK"
+  },
+  {
+    "id": "pakistan",
+    "name": "🇵🇰 Pakistan"
+  },
+  {
+    "id": "india",
+    "name": "🇮🇳 India"
+  },
+  {
+    "id": "sports",
+    "name": "⚽ Sports"
+  },
+  {
+    "id": "movies",
+    "name": "🎬 Movies"
+  },
+  {
+    "id": "news",
+    "name": "📰 News"
+  }
+]
