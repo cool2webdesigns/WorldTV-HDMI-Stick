@@ -1,0 +1,17 @@
+WorldTV HDMI Stick
+        │
+        ▼
+   Public TV App
+        │
+        ▼
+    WorldTV API
+        │
+   ┌────┴─────┐
+   ▼          ▼
+Database    Admin API
+               │
+               ▼
+       Creator Dashboard
+               │
+               ▼
+          YOU / ADMIN
