@@ -1,0 +1,23 @@
+WorldTV-HDMI-Stick/
+├── frontend/
+│   ├── index.html
+│   ├── styles.css
+│   └── app.js
+│
+├── admin/
+│   ├── index.html
+│   ├── admin.css
+│   └── admin.js
+│
+├── backend/
+│   ├── server.js
+│   ├── package.json
+│   ├── .env.example
+│   ├── routes/
+│   ├── middleware/
+│   └── database/
+│
+├── data/
+│   └── categories.json
+│
+└── README.md
