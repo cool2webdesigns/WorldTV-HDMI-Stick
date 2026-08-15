@@ -1,0 +1,10 @@
+{
+  "id": "my-channel",
+  "name": "My Channel",
+  "country": "United Kingdom",
+  "category": "uk",
+  "description": "Live programming from My Channel.",
+  "logo": "assets/my-channel.png",
+  "stream": "https://YOUR-AUTHORISED-STREAM/live.m3u8",
+  "live": true
+}
